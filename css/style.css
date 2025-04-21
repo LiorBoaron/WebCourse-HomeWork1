@@ -1,0 +1,42 @@
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+header{
+    width: 1046px;
+    height: 64px;
+    margin-top: 32px;
+    margin-left: 32px;
+    display: flex;
+    align-items: center;
+}
+.img{ 
+    width: 64px;
+    height: 64px;
+}
+header h1{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 6px;
+    margin-right: 135px;
+}
+.main-nav ul{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: 0px; 
+    display: flex;
+    list-style: none;
+    gap: 62px;
+}
+.main-nav a{
+    text-decoration: none;
+    color: #612999; 
+}
+.main-nav a:hover{
+    font-weight: 700;
+}
+
