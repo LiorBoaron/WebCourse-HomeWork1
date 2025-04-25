@@ -46,3 +46,71 @@ nav a{
 nav a:hover{
     color: mediumorchid;
 }
+/*footer*/
+footer{
+    width: 1200px;
+    height: 287px;
+    background-color:#EFECFF;
+    margin-top: 246px;
+}
+.footer-content{
+    display: flex;
+}
+.footer-content h1{
+    font-family: 'Nunito';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    color: #333333;
+    margin-bottom: 8px;
+}
+.footer-content a{
+    font-family: 'Nunito';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0;
+    color: #333333;
+    text-decoration: none;
+    list-style: none; 
+    display: block;
+    margin-top: 8px;
+}
+.footer-left{
+    width: 126px;
+    height: 126px;
+    margin-top: 32px;
+    margin-bottom: 24px;
+    margin-left: 32px;
+    margin-right: 150px;
+}
+.footer-left a{
+    cursor: default;
+}
+.footer-right{
+    width: 107px;
+    height: 126px;
+    margin-top: 32px;
+}
+.logo-twitter{
+    margin-left: 32px;
+    cursor: pointer;
+}
+.logo-facebook{
+    margin-left: 24px;
+    cursor: pointer;
+}
+.logo-instagram{
+    margin-left: 24px;
+    cursor: pointer;
+}
+.footer-copy{
+    font-family: 'Nunito';
+    font-weight:600;
+    font-size: 16px;
+    color: #333333;
+    padding-left: 32px;
+    margin-top: 16px;
+}
