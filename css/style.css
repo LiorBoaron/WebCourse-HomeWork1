@@ -2,41 +2,47 @@
     width: 1200px;
     margin: 0 auto;
 }
+/*header*/
 header{
     width: 1046px;
     height: 64px;
     margin-top: 32px;
     margin-left: 32px;
+    margin-bottom: 32px;
     display: flex;
     align-items: center;
 }
-.img{ 
-    width: 64px;
-    height: 64px;
+header a{
+    cursor: pointer;
+    display: flex;
+    text-decoration: none;
 }
-header h1{
-    font-family: 'Nunito';
+header a h1{
+    font-family: 'Nunito',sans-serif;
     font-weight: 700;
     font-size: 24px;
-    line-height: 100%;
+    line-height: 24px;
     letter-spacing: 6px;
     margin-right: 135px;
+    color: #3E3F43 ;
 }
-.main-nav ul{
-    font-family: 'Nunito';
+nav ul{
+    font-family: 'Nunito',sans-serif;
     font-weight: 400;
     font-size: 30px;
-    line-height: 100%;
+    line-height: 30px;
     letter-spacing: 0px; 
     display: flex;
     list-style: none;
-    gap: 62px;
+    gap: 64px;
 }
-.main-nav a{
+nav a{
     text-decoration: none;
     color: #612999; 
 }
-.main-nav a:hover{
+.current-page a{
     font-weight: 700;
 }
-
+nav a:hover{
+    color: mediumorchid;
+}
