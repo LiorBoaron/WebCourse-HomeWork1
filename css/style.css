@@ -2,6 +2,9 @@
     width: 1200px;
     margin: 0 auto;
 }
+body{
+    margin: 0px;
+}
 /*header*/
 header{
     width: 1046px;
@@ -124,6 +127,7 @@ footer{
     background-image: url(../images/background-givaty.svg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     margin-bottom: 32px;
 }
 .background-img h1{
@@ -195,6 +199,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     flex: 0 0 376px;
+    margin-left: 32px;
     gap: 32px;
 }
 .item{
