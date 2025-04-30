@@ -370,10 +370,10 @@ footer{
     margin-bottom: 32px;
 }
 .givaty-anthem iframe{
-    margin-left: 32px;
-    margin-bottom: 198px;
-    background-color: #EFECFF;
     width: 1136px;
     height: 503px;
+    margin-bottom: 198px;
+    margin-left: 32px;
+    background-color: #EFECFF;
     border: none;
 }
